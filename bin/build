@@ -1,0 +1,3 @@
+#!/vim/bash
+
+mkdir $1

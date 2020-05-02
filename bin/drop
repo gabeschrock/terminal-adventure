@@ -1,0 +1,10 @@
+#!/bin/bash
+
+[[ -d ~/.inventory ]] || mkdir ~/.inventory
+
+if [[ ! -f ~/.inventory/$1 ]]; then
+	echo "you do not have $1"
+	exit 1
+fi
+
+mv ~/.inventory/$1 .

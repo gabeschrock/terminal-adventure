@@ -1,0 +1,10 @@
+#!/bin/bash
+
+[[ -d ~/.inventory ]] || mkdir ~/.inventory
+
+if [[ ! -f $1 ]]; then
+	echo "cannot find $1"
+	exit 1
+fi
+
+mv $1 ~/.inventory

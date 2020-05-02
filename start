@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export PATH=$PWD/bin:$PATH
+
+echo "Welcome to the adventure!"
+cd adventure
