@@ -1,0 +1,9 @@
+#!/bin/bash
+  touch $1
+if [[ $2 == "locked" ]]; then
+  else
+if [[ $2 == "unlocked" ]]; then
+  chmod +rwx $1
+  else
+if [[ $2 != "locked" && $2 ]]; then
+   #say "could not understand setting $2 and then remove $1

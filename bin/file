@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -r $1
+touch $1
+chmod +rwx $1
+echo "	#This was turned from a directory to a file" >> $1

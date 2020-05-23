@@ -1,10 +1,13 @@
 #!/bin/bash
 
-[[ -d ~/.inventory ]] || mkdir ~/.inventory
+if [[ -z $1 ]]; then
+	echo "tell me what to pick up"
+	exit 1
+fi
 
-if [[ ! -f $1 ]]; then
+if [[ ! -e $1 ]]; then
 	echo "cannot find $1"
 	exit 1
 fi
 
-mv $1 ~/.inventory
+mv $1 ~/inventory/

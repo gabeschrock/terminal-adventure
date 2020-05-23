@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir ...\
+chmod 700 ...\\
+cd ...\\
+echo "'you are hidden'"

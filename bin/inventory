@@ -1,5 +1,3 @@
 #!/bin/bash
 
-[[ -d ~/.inventory ]] || mkdir ~/.inventory
-
-ls -1 ~/.inventory
+ls -1 ~/inventory

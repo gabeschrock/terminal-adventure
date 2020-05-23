@@ -1,0 +1,5 @@
+#!/bin/bash
+touch foo
+echo "#!/bin/bash" >> foo
+nano foo
+rm foo
