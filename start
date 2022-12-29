@@ -1,6 +1,6 @@
 #!/bin/bash
-
-export PATH=$PWD/bin:$PATH
-
-echo "Welcome to the adventure!"
-cd adventure
+echo "Are you ready to start?"
+read answer
+if [[ $answer == "yes" ]];then
+	source bin/start
+fi
